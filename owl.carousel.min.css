@@ -52,8 +52,8 @@
   width: 100%;
   background-color: var(--offwhite-clr);
 }
-.owl-carousel .owl-dots.disabled,
-.owl-carousel .owl-nav.disabled {
+.owl-carousel .owl-dots.disabled
+ {
   display: none;
 }
 .no-js .owl-carousel,
