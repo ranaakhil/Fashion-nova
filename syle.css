@@ -222,8 +222,8 @@ background-color: #efefef;
 
 /* styling side-navigation bar */
 .side-nav {
-  position: fixed;
-  top: 24%;
+  position: absolute;
+  top: 34%;
   min-width: 288px;
   min-height: 100vh;
 }
@@ -622,6 +622,38 @@ input[type="checkbox"] {
 .section-one .select-size .flex .size:hover {
   border: 1px solid black;
 }
+
+/* LOAD MORE BUTTON  */
+/* .more:nth-child(4){
+    display: none;
+} */
+
+/* .show-loader.more:nth-child(4){
+    display: block;
+} */
+
+.more{
+    display: none;
+}
+
+.load-more-container{
+    margin:  1rem 0;
+}
+.load-more{
+ display: block;
+ margin: auto;
+ height: 50px;
+ padding: 0 50px;
+ border: 0;
+ border-radius: 10rem;
+ background-color: #000000;
+ color: #ffff;
+ font-size: 13px;
+ cursor: pointer;
+}
+/* /LOAD MORE BUTTON  */
+
+
 
 /*  /SECTION-ONE CSS */
 

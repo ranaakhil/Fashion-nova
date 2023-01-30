@@ -83,3 +83,29 @@ button.addEventListener("click", ()=>{
 closee.addEventListener("click", ()=>{
     sizee.classList.remove("active");
 })
+
+
+// load more button functionality //
+$(document).ready(function(){
+    $(".more").slice(0,8).fadeIn();
+    $(".load-more").click(function(){
+        $(".more").slice(0,12).fadeIn();
+    });
+});
+
+// const loadmore = document.querySelector(".load-more");
+// const elementList = document.querySelector("#adding");
+// let currentItems = 4;
+
+//     for(let i = currentItems; i<currentItems+4; i++){
+    
+//         loadmore.addEventListener("click", ()=>{
+//             elementList.classList.add('show-loader');
+//             currentItems +=4;
+//         })
+//     }
+   
+
+    
+
+// load more button functionality //
