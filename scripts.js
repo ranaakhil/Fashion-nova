@@ -84,6 +84,15 @@ closee.addEventListener("click", ()=>{
     sizee.classList.remove("active");
 })
 
+// ----------ACCORDION
+const accordion = document.getElementsByClassName('contentBox');
+for (i = 0; i < accordion.length; i++) {
+    accordion[i].addEventListener('click', function () {
+        this.classList.toggle('active')
+    })
+}
+// --------//ACCORDION
+
 
 // load more button functionality //
 $(document).ready(function(){
