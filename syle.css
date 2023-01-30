@@ -825,6 +825,7 @@ input[type="checkbox"] {
 
 
 
+
 /* ,---------------FOOTER */
 .footer{
   position: relative;
@@ -836,9 +837,11 @@ input[type="checkbox"] {
   margin-bottom: 0.7rem ;
 }
 .footetr a{
+  color: #727272;
   font-size: 13px;
 }
 .footer p{
+  color: #727272;
   font-size: .7rem;
   margin: 16px 0;
 }
@@ -856,7 +859,7 @@ padding: 2.5rem  3.75rem 0 3.75rem;
 }
 .footer ul li a{
   text-decoration: none;
-  color: gainsboro;
+  color: #727272;
 }
 .footer .fleft{
   display: flex;
@@ -869,6 +872,9 @@ padding: 2.5rem  3.75rem 0 3.75rem;
 .footer .applinks{
   width: 335px;
 }
+.footer .appicons a svg{
+  color: #fff;
+}
 .footer .accordian .acc-gap {
   margin-top: 0;
   font-size: 13px;
@@ -880,7 +886,10 @@ flex-direction: column;
   max-width: 480px;
   margin-right: 2rem;
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
+}
+.footer .accordian ul li :hover{
+  color: #fff;
 }
 
 .footer .icons ul{
@@ -891,6 +900,9 @@ gap: 2rem;
 .footer .icons ul li a{
   font-size: 1.3rem;
 }
+.footer .icons ul li a:hover{
+  color: #fff;
+}
 .footer input{
   padding: 0 1rem;
   width: 26.625rem;
@@ -898,9 +910,29 @@ gap: 2rem;
   border-radius: 5px;
   border: none;
 }
+.footer .media{
+  position: relative;
+}
+.footer .media .submitbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  border: none;
+  position: absolute;
+  left: 83%;
+  top: 27%;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #e6e6e6;
+}
+.footer .media .submitbtn:hover{
+  background-color:#d5d5d5 ;
+}
 .footer .copyright{
   font-size: 11px;
-  border-top: .5px solid gainsboro;
+  border-top: .5px solid #727272;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -964,7 +996,7 @@ cursor: pointer;
 }
 .footer hr{
 border: none;
-  background-color: gainsboro;
+  background-color: #727272;
   height: .08px;
   margin-top: 1rem;
 }
@@ -976,14 +1008,41 @@ border: none;
   .footer .f-container{
   padding: 2.5rem  1.5rem 0 1.5rem;
   }
+  .footer .accordian{
+    gap: 2rem;
+  }
 }
 
 @media screen and (max-width:1240px){
+  .footer .media .submitbtn{
+    border: none;
+    position: absolute;
+    left: 87%;
+    top: 24%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+  }
   .footer .accordian .acc-gap {
 padding: 0 0 0 1rem;
   }
+  .footer .accordian{
+    gap: 2rem;
+  }
 }
 @media screen and (max-width:1140px){
+
+  .footer .media .submitbtn{
+    border: none;
+    position: absolute;
+    left: 83%;
+    top: 26%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+  }
   .footer .applinks {
       display: none;
   }
@@ -991,8 +1050,18 @@ padding: 0 0 0 1rem;
       padding: 0  40px 0 0 ;
           }
 }
-@media screen and (max-width:989px){.footer 
-  .fleft{
+@media screen and (max-width:989px){
+  .footer .media .submitbtn{
+    border: none;
+    position: absolute;
+    left: 63%;
+    top: 27%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+  }
+  .footer .fleft{
       width: 50%;
   }
   .footer .accordian {
@@ -1001,7 +1070,7 @@ padding: 0 0 0 1rem;
   .footer .accordion{
       width:90%;
           display:block;
-
+      
       }
 .footer input{
   width:341px ;
@@ -1014,8 +1083,29 @@ padding: 0 0 0 1rem;
   font-size: 11px;
 }
 }
-
+@media screen and (max-width:952px){
+  .footer .media .submitbtn{
+    border: none;
+    position: absolute;
+    left: 65%;
+    top: 24%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+  }
+}
 @media screen and (max-width:770px){
+  .footer .media .submitbtn{
+    border: none;
+    position: absolute;
+    left: 70%;
+    top: 22%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+  }
   .footer{
       display: flex;
       align-items: center;
@@ -1052,6 +1142,16 @@ padding: 0 0 0 1rem;
   }
 }
 @media screen and (max-width:474px){
+  .footer .media .submitbtn{
+    border: none;
+    position: absolute;
+    left: 80%;
+    top: 22%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #e6e6e6;
+  }
   .footer{
       display: flex;
       align-items: center;
