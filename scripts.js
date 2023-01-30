@@ -78,17 +78,14 @@ const button = document.querySelector(".cta-hover");
 const sizee = document.querySelector(".select-size");
 const closee = document.querySelector(".close");
 
+  button.addEventListener("click", ()=> {
+    sizee.classList.add('active');
+  });
 
 
-button.addEventListener("click", () => {
-  sizee.classList.add("active");
-});
-
-closee.addEventListener("click", () => {
-  sizee.classList.remove("active");
-});
-
-
+  closee.addEventListener("click", ()=> {
+    sizee.classList.remove('active');
+  });
 
 
 
