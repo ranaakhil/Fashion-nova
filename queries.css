@@ -249,22 +249,27 @@
 
  @media  screen and (max-width:901px)and (min-width:768px) {
     .side-nav {
-        width: 23%; 
+        width: 27%; 
     }
     .size-menu .sizes {
-        width: 5rem;
-        height: 2.5rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .wrapper {
    
-        padding: 0rem 1rem;
+        padding: 0rem 0.2rem;
         padding-bottom: 7rem;
 
     }
     .section-one .grid-row {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+    }
+
+    .section-one .container {
+        padding: 1rem;
+        width: 100%;
     }
 
     .cta-hover{
