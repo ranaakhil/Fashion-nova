@@ -108,25 +108,14 @@ i {
   font-size: 13px;
   background: #000000;
   color: #ffff;
+  gap: 3rem;
 }
-.black-container::before{
-  content: "\f104";
-  margin-right: 10rem;
-  font-family: FontAwesome;
-  cursor: pointer;  
-}
-.black-container::after{
- content: "\f105";
- margin-left: 10rem;
- font-family: FontAwesome;
- cursor: pointer;
-}
-
 .header-container .header-flex {
   display: flex;
   padding: 0.5rem 2rem;
   align-items: center;
   justify-content: space-between;
+  gap: 1rem;
 }
 .l-nav {
   display: flex;
@@ -205,6 +194,12 @@ i {
   background-color: transparent;
   transition: background-color .4s cubic-bezier(.645,.045,.355,1);
 }
+.header-container .header-icons>i:nth-of-type(1){
+  display: none;
+}
+.header-container .header-icons>i:nth-of-type(6){
+  display: none;
+}
 
 .header-container .header-icons i:hover{
 background-color: #efefef;
@@ -233,6 +228,12 @@ background-color: #efefef;
   font-size: 0.76rem;
   font-weight: 600;
   padding: 0.75rem 0.8rem;
+  white-space: nowrap;
+  opacity: 0.9;
+}
+
+#scrollToEnd{
+  display: none;
 }
 /* HEADER CSS */
 
@@ -1286,17 +1287,11 @@ border: none;
   .footer .f-container{
   padding: 2.5rem  1.5rem 0 1.5rem;
   }
-  .footer .accordian{
-    gap: 2rem;
-  }
 }
 
 @media screen and (max-width:1240px){
   .footer .accordian .acc-gap {
 padding: 0 0 0 1rem;
-  }
-  .footer .accordian{
-    gap: 1rem;
   }
 }
 @media screen and (max-width:1140px){
@@ -1317,7 +1312,7 @@ padding: 0 0 0 1rem;
   .footer .accordion{
       width:90%;
           display:block;
-      
+
       }
 .footer input{
   width:341px ;

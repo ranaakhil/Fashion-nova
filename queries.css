@@ -1,0 +1,312 @@
+/* HEADER MEDIA QUERY */
+@media screen and (max-width:1434px){
+    .header-container .li-menu ul {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        height: 6vh;
+    }
+    .header-container .li-menu {
+       position: relative;
+    }
+    
+    .header-container .li-menu #scrollToEnd{
+        font-family: FontAwesome;
+        position: absolute;
+        top: 36%;
+        right: 2%;
+        background: white;
+        border-radius: 100%;
+        box-shadow: -13px 7px 17px 11px white;
+    }
+}
+@media screen and (max-width:1242px){
+    .header-container .logo img {
+        width: 100%;
+    }
+}
+@media screen and (max-width:1148px){
+    .header-container .header-icons >i:nth-of-type(2) {
+        display: none;
+    }
+}
+@media screen and (max-width:1102px){
+    .header-container .header-icons>i:nth-of-type(1){
+        display: block;
+      }
+      .header-container .header-icons>i:nth-of-type(6){
+        display: block;
+      }
+    .l-nav>nav{
+        display: none;
+    }
+    .header-container .header-icons>span{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:820px){
+    .search-bar {
+       display: none;
+    }
+}
+@media screen and (max-width:650px){
+    .black-container{
+        padding: 0rem 1rem;
+    }
+    
+}
+
+
+
+
+
+
+/* FOTTER MEDIA QUERY */
+@media screen and (max-width:1340px){
+    .footer .f-container{
+    padding: 2.5rem  1.5rem 0 1.5rem;
+    }
+  }
+  
+  @media screen and (max-width:1240px){
+    .footer .accordian .acc-gap {
+  padding: 0 0 0 1rem;
+    }
+  }
+  @media screen and (max-width:1140px){
+    .footer .applinks {
+        display: none;
+    }
+    .footer .accordian .acc-gap {
+        padding: 0  40px 0 0 ;
+            }
+  }
+  @media screen and (max-width:989px){.footer 
+    .fleft{
+        width: 50%;
+    }
+    .footer .accordian {
+        display: none;
+    }
+    .footer .accordion{
+        width:90%;
+            display:block;
+  
+        }
+  .footer input{
+    width:341px ;
+  }
+  .footer .copyright .flink{
+    display: none;
+  }
+  .footer .copyright{
+    border:none;
+    font-size: 11px;
+  }
+  }
+  
+  @media screen and (max-width:770px){
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .flex-row{
+        width: 400px;
+       align-items: center;
+       justify-content: center;
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .footer .fright{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+    .footer .fleft{
+        width: 120%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .fright .icons{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .footer .none {
+        display: block;
+    }
+  }
+  @media screen and (max-width:474px){
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .flex-row{
+        width: 300px;
+       align-items: center;
+       justify-content: center;
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .footer .fright{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .footer .fleft{
+        width: 120%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .fright .icons{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+    .footer input{
+        width: 300px;
+    }
+  }
+  @media screen and (max-width:390px){.footer 
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .flex-row{
+        width: 250px;
+       align-items: center;
+       justify-content: center;
+        flex-direction: column-reverse;
+        gap: 2rem;
+    }
+    .footer .fright{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .footer .fleft{
+        width: 130%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .fright .icons{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
+   .footer input{
+        width: 250px;
+    }
+  }
+
+
+  /* main conatiner  */
+ @media  screen and (max-width:1140px)and (min-width:961px) {
+    .side-nav {
+        width: 23%; 
+    }
+
+    .size-menu .sizes {
+        width: 5rem;
+        height: 2.5rem;
+    }
+
+    .section-one .grid-row {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .cta-hover{
+        white-space: nowrap;
+        width: 80%;
+        left: 9%;
+    }
+
+    .cta-hover a{
+        font-size: 13px;
+    }
+
+    .section-two .cta-hover {
+        left: 11%;
+    }
+    
+ }
+
+ @media  screen and (max-width:901px)and (min-width:768px) {
+    .side-nav {
+        width: 23%; 
+    }
+    .size-menu .sizes {
+        width: 5rem;
+        height: 2.5rem;
+    }
+
+    .wrapper {
+   
+        padding: 0rem 1rem;
+        padding-bottom: 7rem;
+
+    }
+    .section-one .grid-row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .cta-hover{
+        white-space: nowrap;
+        width: 80%;
+        left: 9%;
+    }
+
+    .cta-hover a{
+        font-size: 13px;
+    }
+
+    .section-two .cta-hover {
+        left: 10%;
+        width: 80%;
+    }
+
+ }
+
+
+ @media  screen and (max-width:767px)and (min-width:360px) {
+    .side-nav {
+        width: 23%; 
+        display: none;
+    }
+
+    .section-one .container {
+        padding: 0.5rem;
+       
+    }
+     
+    .column:hover .cta-hover {
+        display: none;
+      }
+ 
+    .section-one .grid-row {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+  
+   
+
+ }
+  /* main conatiner  */
