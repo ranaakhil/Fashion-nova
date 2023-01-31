@@ -244,6 +244,10 @@
     .section-two .cta-hover {
         left: 11%;
     }
+    .section-two {
+        padding: 0rem 1rem;
+    }
+
     
  }
 
@@ -286,11 +290,19 @@
         left: 10%;
         width: 80%;
     }
+    .section-two {
+        padding: 0rem 1rem;
+    }
+
 
  }
 
 
  @media  screen and (max-width:767px)and (min-width:360px) {
+
+    .black-container {
+        font-size: 11px;
+    }
     .side-nav {
         width: 23%; 
         display: none;
@@ -299,6 +311,11 @@
     .section-one .container {
         padding: 0.5rem;
        
+    }
+
+    .section-one {
+        margin-top: 1rem;
+
     }
      
     .column:hover .cta-hover {
@@ -310,8 +327,37 @@
         gap: 1rem;
     }
 
+
+    .section-two {
+        padding: 0rem 1rem;
+    }
+
   
    
 
+ }
+
+
+ @media  screen and (max-width:1800px) and (min-width:1180px) {
+    .side-nav {
+        width: 20%; 
+    }
+
+    .cta-hover{
+        white-space: nowrap;
+        width: 80%;
+        left: 9%;
+    }
+
+    .section-two .cta-hover {
+        left: 10%;
+        width: 80%;
+    }
+
+    .section-two {
+        padding: 0rem 3rem;
+    }
+
+    
  }
   /* main conatiner  */
