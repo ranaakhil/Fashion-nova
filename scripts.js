@@ -1,3 +1,14 @@
+//scroll menu over li menu
+const liMenu = document.querySelector('.li-menu');
+const scrollToEnd = document.querySelector('#scrollToEnd');
+
+scrollToEnd.addEventListener('click',()=>{
+
+});
+
+
+
+
 // for size menu
 const size = document.querySelector("#size");
 const sizeMenu = document.querySelector(".size-menu");
