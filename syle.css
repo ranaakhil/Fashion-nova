@@ -552,38 +552,38 @@ input[type="checkbox"] {
   margin-bottom: 0.5rem;
 }
 
-.section-one .column .flex-row {
+ .column .flex-row {
   justify-content: space-between;
   margin-top: 0.5rem;
 }
 
-.section-one .column .content-flex-column {
+ .column .content-flex-column {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.section-one .content-flex-column span:nth-of-type(1) {
+ .content-flex-column span:nth-of-type(1) {
   font-size: 11px;
   color: #272727;
 }
 
-.section-one .content-flex-column span:nth-of-type(2) {
+ .content-flex-column span:nth-of-type(2) {
   font-size: 17px;
   color: #000000;
   font-weight: bold;
 }
 
-.section-one .content-flex-column span:nth-of-type(3) {
+ .content-flex-column span:nth-of-type(3) {
   font-size: 11px;
   color: #9d2226;
 }
 
-.section-one .image-container {
+ .image-container {
   position: relative;
 }
 
-.section-one .cta-hover {
+ .cta-hover {
   position: absolute;
   bottom: 10%;
   left: 6%;
@@ -592,11 +592,11 @@ input[type="checkbox"] {
   width: 21rem;
 }
 
-.section-one .column:hover .cta-hover {
+ .column:hover .cta-hover {
   display: block;
 }
 
-.section-one .select-size {
+ .select-size {
   background: #ffff;
   border-radius: 0.5rem;
   position: absolute;
@@ -607,7 +607,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-.section-one .grid-row .image-container::after {
+ .grid-row .image-container::after {
   content: "New!";
   position: absolute;
   top: 10px;
@@ -621,25 +621,25 @@ input[type="checkbox"] {
   font-family: sans-serif;
 }
 
-.section-one  .select-size.active {
+ .select-size.active {
   display: block;
   bottom: 3%;
   left: 3%;
 }
 
-.section-one .select-size .flex-column {
+.select-size .flex-column {
   gap: 1rem;
   flex-direction: column;
   display: flex;
 }
 
-.section-one .select-size .heading-flex {
+ .select-size .heading-flex {
   display: flex;
   cursor: pointer;
   justify-content: space-between;
 }
 
-.section-one .select-size .flex {
+ .select-size .flex {
   display: grid;
   grid-template-columns: repeat(4,1fr);
   flex-wrap: wrap;
@@ -647,7 +647,7 @@ input[type="checkbox"] {
   
 }
 
-.section-one .select-size .flex .size {
+ .select-size .flex .size {
   width: 100%;
   height: 2.5rem;
   border-radius: 0.3rem;
@@ -660,7 +660,7 @@ input[type="checkbox"] {
   border: 1px solid rgba(128, 128, 128, 0.805);
 }
 
-.section-one .select-size .flex .size:hover {
+ .select-size .flex .size:hover {
   border: 1px solid black;
 }
 
@@ -668,125 +668,18 @@ input[type="checkbox"] {
 
 /* SECTION-TWO CSS */
 .section-two {
-  /* padding:1rem 5rem; */
-  margin-top: 2rem;
+  padding:0rem 5rem;
+  margin: 2rem 0;
   width: 100%;
   height: auto;
 }
-
-/* .section-two .container {
-  margin-left: 18rem;
-  margin-right: 2rem;
-} */
-
-.section-two{
-  padding:   0 3rem;
-}
-
-.section-two .column .flex-row {
-  justify-content: space-between;
-  margin-top: 0.5rem;
-}
-
-.section-two .column .content-flex-column {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.section-two .content-flex-column span:nth-of-type(1) {
-  font-size: 11px;
-  color: #272727;
-}
-
-.section-two .content-flex-column span:nth-of-type(2) {
-  font-size: 17px;
-  color: #000000;
-  font-weight: bold;
-}
-
-.section-two .content-flex-column span:nth-of-type(3) {
-  font-size: 11px;
-  color: #9d2226;
-}
-
-.section-two .image-container {
-  position: relative;
-}
-
 .section-two .cta-hover {
   position: absolute;
   bottom: 10%;
-  left: 14%;
+  left: 6%;
   display: none;
-}
-
-.section-two .column:hover .cta-hover {
-  display: block;
-}
-
-.section-two .select-size {
-  background: #ffff;
-  border-radius: 0.5rem;
-  position: absolute;
-  padding: 1rem;
-  bottom: 5%;
-  left: 9%;
-  right: 9%;
-  display: none;
-}
-
-.section-two .grid-row .image-container::after {
-  content: "New!";
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: #ffff;
-  color: #000000;
-  font-weight: 600;
-  padding: 0.2rem 0.5rem;
-  border-radius: 1rem;
-  font-size: 11px;
-  font-family: sans-serif;
-}
-
-.section-two .select-size.active {
-  display: block;
-}
-
-.section-two .select-size .flex-column {
-  gap: 1rem;
-  flex-direction: column;
-  display: flex;
-}
-
-.section-two .select-size .heading-flex {
-  display: flex;
-  cursor: pointer;
-  justify-content: space-between;
-}
-
-.section-two .select-size .flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.section-two .select-size .flex .size {
-  width: 50px;
-  height: 40px;
-  border-radius: 0.3rem;
-  text-transform: uppercase;
-  font-size: 13px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgba(128, 128, 128, 0.805);
-}
-
-.section-two .select-size .flex .size:hover {
-  border: 1px solid black;
+  transform: translate(0% 50%);
+  width: 24rem;
 }
 
 .section-two .flex-column h1 {
@@ -794,13 +687,13 @@ input[type="checkbox"] {
   text-transform: uppercase;
   font-weight: bold;
   font-family: sans-serif;
-}
+} 
 
-.section-two .flex-column {
+ .section-two .flex-column {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-}
+} 
 
 /* /SECTION-TWO CSS */
 
