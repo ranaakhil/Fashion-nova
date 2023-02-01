@@ -8,6 +8,7 @@
 
 body {
   min-height: 100vh;
+  user-select: none;
   font-family:Proxima Nova,Arial,sans-serif;
 }
 html{
