@@ -32,6 +32,9 @@
     }
 }
 @media screen and (max-width:1102px){
+    .sidenav{
+        display: block;
+    }
     .nav-icon{
         display: block;
     }
@@ -61,6 +64,10 @@
     
 }
 @media screen and (max-width:820px){
+
+    .women{
+        margin-top: 1rem;
+    }
     .search-bar {
        display: none;
     }
@@ -225,6 +232,12 @@
     }
    .footer input{
         width: 250px;
+    }
+  }
+
+  @media  screen and (max-width:990px) and (min-width:51px) {
+    .li-menu{
+        display: none;
     }
   }
 
