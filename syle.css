@@ -51,7 +51,7 @@ i {
   margin-top: 1rem;
 }
 
-.cta-hover a {
+.cta-hover , .cta{
   border-radius: 2rem;
   cursor: pointer;
   outline: 2px solid transparent;
@@ -65,29 +65,8 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: none;
 }
-
-.cta {
-  display: flex;
-  justify-content: center;
-  margin-top: 1rem;
-  width: 21rem;
-  border-radius: 2rem;
-  cursor: pointer;
-  outline: 2px solid transparent;
-  padding: 0.8rem 3rem;
-  font-size: 15px;
-  transition-duration: 0.5s;
-  background: #212121;
-  color: #ffff;
-  text-decoration: none;
-  width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
 
 
 /* =============/GENERAL=========== CSS */
@@ -172,6 +151,13 @@ i {
   position: absolute;
   top: 29%;
   left: 5%;
+}
+
+.camera{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 10%;
 }
 /* .search-bar::after {
   content: "\e0da";
@@ -258,6 +244,14 @@ background-color: #efefef;
   flex-direction: column;
   gap: 0.4rem;
   padding: 1rem 2rem;
+}
+h1{
+   font-family: proxima-nova, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    line-height: 32.4px;
+    text-transform: uppercase;
 }
 .women {
   display: flex;
@@ -605,7 +599,7 @@ input[type="checkbox"] {
   bottom: 0%;
   left: 3%;
   width: 94%;
-  display: none;
+  display: none; 
 }
 
  .grid-row .image-container::after {
@@ -661,9 +655,24 @@ input[type="checkbox"] {
   border: 1px solid rgba(128, 128, 128, 0.805);
 }
 
- .select-size .flex .size:hover {
+.select-size .flex .size.active{
   border: 1px solid black;
 }
+
+.addcart{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 33px;
+  height: 33px;
+  background: #ffff;
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: none;
+  
+
+}
+
 
 /*  /SECTION-ONE CSS */
 

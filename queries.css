@@ -247,6 +247,10 @@
     .section-two {
         padding: 0rem 1rem;
     }
+    .to-top {
+        left: 95%;
+  
+    }
 
     
  }
@@ -294,11 +298,26 @@
         padding: 0rem 1rem;
     }
 
+    .to-top {
+        left: 95%;
+  
+    }
+
 
  }
 
 
  @media  screen and (max-width:767px)and (min-width:360px) {
+
+    .header-container .header-flex {
+        padding: 0.5rem 0.2rem;
+        gap: 0rem;
+    }
+
+    .header-container .header-icons i {
+        padding: 0.5rem;
+    
+    }
 
     .black-container {
         font-size: 11px;
@@ -332,7 +351,26 @@
         padding: 0rem 1rem;
     }
 
+    .addcart{
+        display: block;
+    }
+
+    .select-size {
+        background: #ffff;
+        border-radius: 0.5rem;
+        position: absolute;
+        padding: 1rem 0.7rem;
+        bottom: 0%;
+        left: 3%;
+        width: 94%;
+        /* display: none; */
+      }
+      .to-top {
+        left: 88%;
   
+    }
+
+   
    
 
  }
@@ -358,6 +396,9 @@
         padding: 0rem 3rem;
     }
 
-    
- }
+    .to-top {
+        left: 96%;
+  
+    }
+}
   /* main conatiner  */

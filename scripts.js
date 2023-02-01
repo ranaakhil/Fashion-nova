@@ -85,18 +85,84 @@ window.addEventListener("scroll", () => {
 });
 
 
-const button = document.querySelector(".cta-hover");
-const sizee = document.querySelector(".select-size");
-const closee = document.querySelector(".close");
+// const button = document.querySelector(".cta-hover");
+// const sizee = document.querySelector(".select-size");
+// const closee = document.querySelector(".close");
 
-  button.addEventListener("click", ()=> {
-    sizee.classList.add('active');
-  });
+//   button.addEventListener("click", ()=> {
+//     sizee.classList.add('active');
+//   });
 
 
-  closee.addEventListener("click", ()=> {
-    sizee.classList.remove('active');
-  });
+//   closee.addEventListener("click", ()=> {
+//     sizee.classList.remove('active');
+//   });
+
+// var allButtonsOnPage = document.querySelectorAll(".cta-hover");
+// var sizee = document.querySelector(".select-size");
+// var closebtn = document.querySelector(".close");
+
+// allButtonsOnPage.forEach(function(button,index){
+//   button.addEventListener('click', function(){
+//     sizee.classList.add('active');
+//   });
+
+//   closebtn.addEventListener('click', function(){
+//     sizee.classList.remove('active');
+//   });
+// });
+
+
+document.addEventListener("DOMContentLoaded", function(event) { // <-- add this wrapper
+  let element = document.querySelectorAll('.select-size .size');
+  if (element) {
+      element.forEach(function(el, key){
+          el.addEventListener('click', function () {
+          el.classList.toggle("active");
+              element.forEach(function(ell, els){
+                  if(key !== els) {
+                      ell.classList.remove('active');
+                  }
+              });
+          });
+      });
+  }
+
+  function Showhide(classList){
+      if (classList) {
+          
+          classList.forEach(function(el, key){
+            
+             el.addEventListener('click', function () {
+                console.log(el);
+             
+  
+                if (el.nextElementSibling != null) {
+                      el.nextElementSibling.classList.toggle("active");
+                }
+             });
+          });
+      }
+  }
+
+  let classList1 = document.querySelectorAll('.cta-hover');
+  Showhide(classList1);
+  const closee = document.querySelectorAll(".close");
+
+  if (closee) {
+      closee.forEach(function (el, key) {
+          el.addEventListener('click', function () {
+          let selectSize = document.querySelectorAll(".select-size");
+          selectSize.forEach(function (el, key) {
+              if (el.className == "select-size active") {
+                  el.classList.remove('active');
+              }
+          })
+          })
+      })
+  }
+});
+
 
 
 
