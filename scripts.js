@@ -108,3 +108,24 @@ for (i = 0; i < accordion.length; i++) {
     })
 }
 // --------//ACCORDION
+
+
+const slide= document.querySelectorAll('.toclick');
+for (i = 0; i < slide.length; i++) {
+        slide[i].addEventListener('click', function () {
+            this.classList.toggle('active')
+          });
+};
+
+
+
+// sidenav ----------  //
+const add = document.querySelector('#to-sidenav');
+const mainbody = document.querySelector('.to-none')
+add.addEventListener('click', function () {
+ $(this).toggleClass('open');
+  document.querySelector('.sidenav').classList.toggle('active');
+  mainbody.classList.toggle('active')
+})
+
+// -----------------hamburger
