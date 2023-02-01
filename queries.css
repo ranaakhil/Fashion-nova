@@ -83,7 +83,7 @@
 @media screen and (max-width:896px){
 
     .sidenav{
-        top: 16%;
+        top: 18%;
     }
 }
 
@@ -340,6 +340,9 @@
 
 
  @media  screen and (max-width:767px)and (min-width:360px) {
+    .sidenav{
+        top: 10%;
+    }
 
     .header-container .header-flex {
         padding: 0.5rem 0.2rem;
