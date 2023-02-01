@@ -32,6 +32,20 @@
     }
 }
 @media screen and (max-width:1102px){
+    .nav-icon{
+        display: block;
+    }
+    .to-none{
+        display: block;
+    }
+    .to-none.active{
+        display:none;
+    }
+    .header-container .header-flex{
+        position: fixed;
+        top: 0;
+        z-index: 99999;width: 100vw;
+    }
     .header-container .header-icons>i:nth-of-type(1){
         display: block;
       }
